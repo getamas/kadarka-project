@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kadarka Borászat</title>
+	<meta charset="utf-8">
+	
+	<link rel="icon" href="img/favicon.ico">
+
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+
+</head>
+<body>
+
+<nav>
+	<div class="nav-inner">
+		<a href="index.html" class="logo">
+			
+		</a>
+
+		<ul>
+			<li><a href="contact.html">Kapcsolat</a></li>
+			<li><a href="taste.html">Borkóstolás</a></li>
+			<li><a href="gallery.html">Galéria</a></li>
+			<li><a href="about.html">Bemutatkozunk</a></li>
+			<li><a href="products.html">Termékeink</a></li>
+			<li><a href="index.html" class="current">Kezdőlap</a></li>
+		</ul>
+	</div>
+</nav>
+
+
+<div id="home-slider-wrapper">
+	<div id="home-slider">
+		<div class="home-slide">
+			<img src="img/slider_3.png">
+		</div>
+
+		<div class="home-slide">
+			<img src="img/slider_2.png">
+		</div>
+
+		<div class="home-slide">
+			<img src="img/slider-1.png">
+		</div>
+	</div>
+
+	
+
+	<a href="" class="home-prev"></a>
+	<a href="" class="home-next"></a>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#home-slider').cycle({
+			fx: 'fade',
+			next: '.home-next',
+			prev: '.home-prev',
+			timeout: 7000,
+			speed: 'slow',
+			pager: '.home-pager'
+
+		});
+	
+	});
+
+</script>
+
+<div class="main">
+	<div class="main-inner">
+		<div class="home-pager"></div>
+		<section class="gallery">
+
+			<div class="overlay-top">
+		
+			</div>
+
+			<div class="overlay-bottom">
+				
+			</div>
+			<img src="img/gallery_3.png" class="ov-image" alt="">
+			<img src="img/gallery_1.png" alt="">
+			<img src="img/gallery_2.png" class="img-last" alt="">
+			<div class="thumbnail">
+				Galéria
+			</div>
+		</section>
+
+		<section class="about"> 
+			<a href="about.html" class="about-logo">
+				
+			</a>
+
+			<div class="about-text">
+				<p>Birtokunk névadója egy kevésbé ismert, de 
+				minőségi szőlő a Kadarka. Ez a fajta kiemelkedően fűszeres zamatú, kötöttebb talajon testesebb, míg lazább homokos talajon üdébb vörösborokat terem. A logónkban egy szép egészséges szőlőfürt mint a bő termés állandó jelképe, és borászatunk 1991-ben telepített dülői, mint a kezdet szimbóluma kapott helyet. Ezeket összefogja egy pajzs körvonala, ami a családunk egységét, összetartozását jelképezi. </p>
+			</div>
+		</section>
+	</div>
+</div>
+
+<footer>
+	<p>&copy; Az oldalon minden jog fenntartva, a képeket szerzői jog védi, felhasználásuk engedélyhez kötött.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

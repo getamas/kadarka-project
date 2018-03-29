@@ -1,0 +1,41 @@
+/* Demo CSS - You do not need this css in your own slider */
+
+ul.bjqs-controls.v-centered li a{
+	margin: 0px 60px;
+	display:block;
+	text-decoration: none;
+	width: 17px;
+	height: 68px;
+	background-image: url(../img/prev.png);
+	background-repeat: no-repeat;
+	
+}
+
+ul.bjqs-controls.v-centered li:nth-child(2) a{
+	display:block;
+	text-decoration: none;
+	width: 17px;
+	height: 68px;
+	background-image: url(../img/next.png);
+	background-repeat: no-repeat;
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+	
+}
+
+ol.bjqs-markers li a{
+	background: #b4a990;
+	margin:5px;
+	text-decoration: none;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+	text-indent: -9999%;
+	z-index: 120;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+	background: #7e6d42;
+}
